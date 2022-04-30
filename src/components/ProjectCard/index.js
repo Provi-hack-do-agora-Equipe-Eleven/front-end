@@ -1,11 +1,17 @@
 import { Container, CardImage, CardContent, Button } from './styles';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ProjectCard = () => {
   const navigate = useNavigate();
-  const [project, setProject] = useState({ id: '', img: '', title: '', description: '' });
-
+  const [project, setProject] = useState({
+    id: '',
+    img: '',
+    title: '',
+    description: '',
+  });
+  const { t } = useTranslation();
   useEffect(() => {
     setProject({
       id: 1,
@@ -23,7 +29,7 @@ const ProjectCard = () => {
         <p>{project?.description}</p>
       </CardContent>
       <Button onClick={() => navigate(`/project/${project?.id}`)}>
-        VEJA MAIS
+        {t('seeMore')}
       </Button>
     </Container>
   );
