@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  font-family: 'Mitr', sans-serif;
-  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,10 +22,8 @@ export const CardContent = styled.div`
 
   > h1 {
     font-size: 1.5em;
-    margin: 0;
   }
   > p {
-    margin: 0;
     max-width: 275px;
     line-height: 1.5em;
     font-size: 1em;
