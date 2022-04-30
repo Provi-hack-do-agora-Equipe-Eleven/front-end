@@ -1,0 +1,39 @@
+.main-content {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../assets/images/photo-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.cta-div-main {
+  position: absolute;
+  top: 35%;
+  left: 58%;
+
+  width: 550px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 55px;
+}
+
+.cta-div-main h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cta-div-main button {
+  border: 3px solid white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 270px;
+  height: 70px;
+  background-color: transparent;
+}
