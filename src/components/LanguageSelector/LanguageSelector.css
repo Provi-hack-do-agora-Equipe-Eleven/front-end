@@ -2,18 +2,22 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 27px;
+  width: 35px;
 }
 
 .lang-label {
   border-radius: 4px;
-  background-color: white;
+  border: 2px solid white;
+  /* background-color: white; */
   width: min-content;
   cursor: pointer;
-  height: 30.5px !important;
-  min-height: 30.5px !important;
+  height: 28.2px !important;
+  min-height: 28.2px !important;
 }
 .lang-label img {
-  width: 30px;
+  height: 24.4px;
+  border-radius: 2px;
 }
 
 .hide {
@@ -30,8 +34,8 @@
   padding: 0px !important;
 }
 .MuiMenuItem-root {
-  padding: 4px !important;
+  padding: 2px !important;
 }
 .MuiMenuItem-root img {
-  width: 30px;
+  width: 32px;
 }

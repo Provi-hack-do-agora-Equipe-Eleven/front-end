@@ -52,9 +52,6 @@ const LanguageSelector = () => {
         id="demo-controlled-open-select-label"
         className="lang-label"
         onClick={handleOpen}
-        style={{
-          padding: "4px",
-        }}
       >
         <img src={`countries-flags/${selectedLanguage}.svg`} alt="" />
       </label>
