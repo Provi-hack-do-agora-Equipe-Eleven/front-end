@@ -39,6 +39,7 @@
   "send": "REGISTER",
   "namePlaceholder": "Name",
   "passwordPlaceholder": "Password",
+  "phonePlaceholder": "Phone",
 
   "alreadyHaveAccount": "Already have an account?",
   "signIn": "Sign In",
