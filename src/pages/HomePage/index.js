@@ -1,14 +1,16 @@
+import HomeMain from "../../components/HomeMain";
 import AboutUs from "../../components/AboutUs";
+import Mission from "../../components/Mission";
 import ProjectsMain from "../../components/ProjectsMain";
-import "../../views/App/App.css";
 
 const HomePage = () => {
   return (
-    <div className="app">
-      <HomePage />
+    <>
+      <HomeMain />
       <AboutUs />
+      <Mission />
       <ProjectsMain />
-    </div>
+    </>
   );
 };
 
