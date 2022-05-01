@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.section`
   display: flex;
@@ -14,11 +14,13 @@ export const CardImage = styled.img`
 `;
 
 export const CardContent = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  padding: 24px 0;
+  padding: 24px 48px;
   color: #434444;
+  background: #fff;
 
   > h1 {
     font-size: 1.5em;

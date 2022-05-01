@@ -12,7 +12,6 @@
   "us": "us",
   "aboutUsDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus nesciunt voluptate quasi, dolor praesentium sapiente autem sunt, placeat, voluptatum est? Asperiores illum reprehenderit rerum corrupti inventore beatae quas temporibus?",
 
-  "seeMore": "SEE MORE",
 
   "our": "our",
   "mission": "mission",
@@ -26,5 +25,9 @@
   "titleFour":"ALERT",
   "descriptionFour": "About the threat that excessive waste production and its incorrect disposal mean to the planet, animals, fish and birds.",
   "titleFive":"CELEBRATE IMPORTANT DATES",
-  "descriptionFive":"It seeks to involve civil society, the private sector and government in the sustainable solution to a global problem."
+  "descriptionFive":"It seeks to involve civil society, the private sector and government in the sustainable solution to a global problem.",
+  
+  "projectTitle": "Projects",
+  "discoverProjects": "Discover all projects",
+  "seeMore": "SEE MORE"
 }

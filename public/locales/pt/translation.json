@@ -9,7 +9,7 @@
   "about": "quem",
   "us": "somos",
   "aboutUsDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus nesciunt voluptate quasi, dolor praesentium sapiente autem sunt, placeat, voluptatum est? Asperiores illum reprehenderit rerum corrupti inventore beatae quas temporibus?",
-  "seeMore": "VEJA MAIS",
+ 
   "our": "nossa",
   "mission": "missão",
   "ourMission": "Conectar e mobilizar pessoas e organizações com ações sustentáveis que gerem impactos positivos ao meio ambiente através da redução de lixo plático.",
@@ -22,5 +22,9 @@
   "titleFour": "ALERTAR",
   "descriptionFour": "Sobre a ameaça que a produção excessiva de resíduos e seu descarte incorreto significam para o planeta, os animais, peixes e aves.",
   "titleFive": "CELEBRAR DATAS IMPORTANTES",
-  "descriptionFive": "Procura envolver a sociedade civil, o setor privado e governo na solução sustentável para um problema global."
+  "descriptionFive": "Procura envolver a sociedade civil, o setor privado e governo na solução sustentável para um problema global.",
+
+  "projectTitle": "Projetos",
+  "discoverProjects": "Conheça todos os projetos",
+  "seeMore": "VEJA MAIS"
 }

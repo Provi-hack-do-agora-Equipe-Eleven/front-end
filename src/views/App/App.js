@@ -1,17 +1,16 @@
-import AboutUs from "../../components/AboutUs";
 import Header from "../../components/Header";
-import HomeMain from "../../components/HomeMain";
-import Mission from "../../components/Mission";
 import "./App.css";
+import HomePage from "../../pages/HomePage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="app">
+    <Router>
       <Header />
-      <HomeMain />
-      <AboutUs />
-      <Mission />
-    </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 };
 
