@@ -4,6 +4,7 @@ export const Container = styled.article`
   display: flex;
   flex-direction: column;
   color: #fff;
+  width: 450px;
 `;
 
 export const Title = styled.section`
@@ -19,6 +20,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+  width: 100%;
 `;
 
 export const Input = styled.input`
@@ -27,6 +29,7 @@ export const Input = styled.input`
   padding: 16px 40px;
   border: 3px solid #fff;
   border-radius: 0.5em;
+  box-sizing: border-box;
 `;
 
 export const Button = styled.button`

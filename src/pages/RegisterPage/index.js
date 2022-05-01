@@ -1,11 +1,13 @@
 import SignUp from "../../components/SignUp";
 import SignIn from "../../components/SignIn";
-import { Container } from "./styles";
+import { Container, ContainerContent } from "./styles";
 const RegisterPage = () => {
   return (
     <Container>
-      <SignIn />
-      <SignUp />
+      <ContainerContent>
+        <SignIn />
+        <SignUp />
+      </ContainerContent>
     </Container>
   );
 };

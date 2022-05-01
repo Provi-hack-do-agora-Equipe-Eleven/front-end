@@ -10,9 +10,9 @@ const SignUp = () => {
         <h1>{t("signUp")}</h1>
       </Title>
       <Form>
-        <Input placeholder="Nome" />
-        <Input placeholder="E-mail"/>
-        <Input placeholder="Senha - de 8 a 15 dígitos"/>
+        <Input placeholder={t("namePlaceholder")} />
+        <Input placeholder="E-mail" />
+        <Input placeholder={t("passwordPlaceholder")} />
         <Button>{t("send")}</Button>
       </Form>
     </Container>
