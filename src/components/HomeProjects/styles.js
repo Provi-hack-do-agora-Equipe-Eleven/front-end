@@ -1,13 +1,20 @@
 import styled from "styled-components";
-import background from "../../assets/images/projects-main-background.png"
+import background from "../../assets/images/projects-main-background.png";
 
 export const Container = styled.article`
   width: 100%;
   display: flex;
+  justify-content: center;
+  background: url(${background}) no-repeat;
+  background-size: cover;
+`;
+
+export const ContentContainer = styled.article`
+  width: 1440px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 100px;
-  background: url(${background}) no-repeat;
   background-size: cover;
   position: relative;
 `;

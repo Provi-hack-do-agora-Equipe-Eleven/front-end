@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import ProjectCard from "../ProjectCard";
-import { Container, Title, Button, Projects } from "./styles";
+import { Container, ContentContainer, Title, Button, Projects } from "./styles";
 import mockup from "../../assets/images/photo-hero.jpg";
 import { useNavigate } from "react-router-dom";
 
@@ -35,23 +35,25 @@ const HomeProjects = () => {
 
   return (
     <Container>
-      <Title>
-        <h1>{t("projectTitle")}</h1>
-        <Button onClick={() => navigate("/projects")}>
-          {t("discoverProjects")}
-        </Button>
-      </Title>
-      <Projects>
-        {projects.map((project) => (
-          <ProjectCard
-            key={project.id}
-            id={project.id}
-            title={project.title}
-            source={project.img}
-            description={project.description}
-          />
-        ))}
-      </Projects>
+      <ContentContainer>
+        <Title>
+          <h1>{t("projectTitle")}</h1>
+          <Button onClick={() => navigate("/projects")}>
+            {t("discoverProjects")}
+          </Button>
+        </Title>
+        <Projects>
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.id}
+              id={project.id}
+              title={project.title}
+              source={project.img}
+              description={project.description}
+            />
+          ))}
+        </Projects>
+      </ContentContainer>
     </Container>
   );
 };
