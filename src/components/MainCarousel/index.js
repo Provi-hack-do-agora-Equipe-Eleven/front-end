@@ -1,12 +1,13 @@
 import "./style.css";
 import { useState, useEffect } from "react";
-import circle from "../../assets/icons/circle.svg";
 import CircleSvg from "../CircleSvg";
 import leftArrow from "../../assets/icons/leftArrow.svg";
 import rightArrow from "../../assets/icons/rightArrow.svg";
+import { useTranslation } from "react-i18next";
 
 const MainCarousel = () => {
   const [current, setCurrent] = useState(0);
+  const { t } = useTranslation();
 
   const handleCarousel = (id) => {
     if (id < 0) return setCurrent(2);
@@ -38,39 +39,33 @@ const MainCarousel = () => {
             <div className="carouse-1-wrapper">
               <div className="carousel-1">
                 <span>400</span>
-                <p>O plástico pode levar mais de 400 anos para se decompor.</p>
+                <p>{t("carousel1p1")}</p>
               </div>
               <div className="carousel-1">
                 <span>2050</span>
-                <p>Até 2050, haverá mais plástico nos oceanos do que peixes.</p>
+                <p>{t("carousel1p2")}</p>
               </div>
             </div>
 
             <div className="carouse-1-wrapper">
               <div className="carousel-1">
                 <span>300</span>
-                <p>
-                  milhões de toneladas de lixo plástico em todo o planeta são
-                  geradas a cada ano
-                </p>
+                <p>{t("carousel2p1")}</p>
               </div>
               <div className="carousel-1">
                 <span>80%</span>
-                <p>de todo o lixo encontrado nos oceanos é plástico</p>
+                <p>{t("carousel2p2")}</p>
               </div>
             </div>
 
             <div className="carouse-1-wrapper">
               <div className="carousel-1">
                 <span>100</span>
-                <p>
-                  mil animais marinhos são mortos a cada ano devido ao lixo
-                  plástico
-                </p>
+                <p>{t("carousel3p1")}</p>
               </div>
               <div className="carousel-1">
                 <span>1Mi</span>
-                <p>de garrafas de plástico são compradas a cada minuto.</p>
+                <p>{t("carousel3p2")}</p>
               </div>
             </div>
           </div>
