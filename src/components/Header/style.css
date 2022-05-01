@@ -3,6 +3,7 @@ header {
   display: flex;
   justify-content: center;
   position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   right: 0;
@@ -48,4 +49,9 @@ button {
   background-color: #ff3f44;
   width: 270px;
   height: 70px;
+  transition: 300ms;
+}
+.header-CTA:hover {
+  background-color: #474d51;
+  transition: 300ms;
 }

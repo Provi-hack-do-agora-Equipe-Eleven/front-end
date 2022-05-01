@@ -4,23 +4,45 @@ import planet from '../../assets/icons/planet.svg'
 
 const Mission = () => {
     const { t } = useTranslation();
+    const mission = [
+        {
+            number: 1, title: t("titleOne"), description: t("descriptionOne")
+        },
+        {
+            number: 2, title: t("titleTwo"), description: t("descriptionTwo")
+        },
+        {
+            number: 3, title: t("titleThree"), description: t("descriptionThree")
+        },
+        {
+            number: 4, title: t("titleFour"), description: t("descriptionFour")
+        },
+        {
+            number: 5, title: t("titleFive"), description: t("descriptionFive")
+        }
+    ]
 
     return (
         <div className="card-mission">
-            <div className="about">
-                <h1>{t("mission")}</h1>
+            <div className="about our-mission">
+                <div>
+                    <h1>{t("our")}</h1>
+                    <h1>{t("mission")}</h1>
+                </div>
                 <p>{t("ourMission")}</p>
             </div>
-            <div>
-                <img src={planet} alt='planeta'/>
+            <div className='card-description'>
+                <img src={planet} alt='planeta' />
                 <div>
-                    <div>
-                        <h1>1</h1>
-                        <div>
-                            <h3>Cooperação</h3>
-                            <p>Procura envolver a sociedade civil, o setor privado e governo na solução sustentável para um problema global.</p>
+                    {mission.map((item, index) => (
+                        <div key={index} className='description'>
+                            <h1 className='number'>{item.number}</h1>
+                            <div>
+                                <h3>{item.title}</h3>
+                                <p>{item.description}</p>
+                            </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
