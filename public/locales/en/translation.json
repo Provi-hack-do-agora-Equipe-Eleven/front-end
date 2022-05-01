@@ -12,5 +12,35 @@
   "us": "us",
   "aboutUsDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus nesciunt voluptate quasi, dolor praesentium sapiente autem sunt, placeat, voluptatum est? Asperiores illum reprehenderit rerum corrupti inventore beatae quas temporibus?",
 
-  "seeMore": "SEE MORE"
+  "our": "our",
+  "mission": "mission",
+  "ourMission": "Connect and mobilize people and organizations with sustainable actions that generate positive impacts on the environment through the reduction of plastic waste.",
+  "titleOne": "COOPERATION",
+  "descriptionOne": "It seeks to involve civil society, the private sector and government in the sustainable solution to a global problem.",
+  "titleTwo": "APPRECIATION",
+  "descriptionTwo": "The importance of waste pickers and cooperatives to combat problems related to the generation and disposal of waste.",
+  "titleThree": "ACCESS TO INFORMATION",
+  "descriptionThree": "With ethics and honesty, respecting the local culture, we engage and seek to raise awareness among the Brazilian population in the irregular disposal of urban waste, soil contamination and pollution of the waters of rivers and oceans through transparent communication.",
+  "titleFour": "ALERT",
+  "descriptionFour": "About the threat that excessive waste production and its incorrect disposal mean to the planet, animals, fish and birds.",
+  "titleFive": "CELEBRATE IMPORTANT DATES",
+  "descriptionFive": "It seeks to involve civil society, the private sector and government in the sustainable solution to a global problem.",
+
+  "projectTitle": "Projects",
+  "discoverProjects": "Discover all projects",
+  "seeMore": "SEE MORE",
+
+  "filter": "Filter",
+  "moreProjects": "MORE PROJECTS",
+  "lessProjects": "LESS PROJECTS",
+
+  "noHaveAccount": "Don't have an account?",
+  "signUp": "Sign Up",
+  "send": "REGISTER",
+  "namePlaceholder": "Name",
+  "passwordPlaceholder": "Password",
+
+  "alreadyHaveAccount": "Already have an account?",
+  "signIn": "Sign In",
+  "login": "LOGIN"
 }

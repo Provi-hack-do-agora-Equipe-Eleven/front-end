@@ -4,13 +4,41 @@
   "getInformed": "Inform-se",
   "contact": "Contato",
   "createProject": "Criar Projeto",
-
   "mainTitle": "Descubra como engajar e ajudar nosso planeta",
   "meetProjects": "Conhecer os Projetos",
-
   "about": "quem",
   "us": "somos",
   "aboutUsDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus nesciunt voluptate quasi, dolor praesentium sapiente autem sunt, placeat, voluptatum est? Asperiores illum reprehenderit rerum corrupti inventore beatae quas temporibus?",
 
-  "seeMore": "VEJA MAIS"
+  "our": "nossa",
+  "mission": "missão",
+  "ourMission": "Conectar e mobilizar pessoas e organizações com ações sustentáveis que gerem impactos positivos ao meio ambiente através da redução de lixo plático.",
+  "titleOne": "COOPERAÇÃO",
+  "descriptionOne": "Procura envolver a sociedade civil, o setor privado e governo na solução sustentável para um problema global.",
+  "titleTwo": "VALORIZAÇÃO",
+  "descriptionTwo": "A importância dos catadores e cooperativas para combater os problemas relacionados à geração e descarte de lixo.",
+  "titleThree": "ACESSO A INFORMAÇÃO",
+  "descriptionThree": "Com ética e honestidade, respeitando a cultura local, engajamos e buscamos conscientizar a população brasileira no descarte irregular de lixo urbano, na contaminação do solo e na poluição das águas de rios e oceanos através de uma comunicação transparente.",
+  "titleFour": "ALERTAR",
+  "descriptionFour": "Sobre a ameaça que a produção excessiva de resíduos e seu descarte incorreto significam para o planeta, os animais, peixes e aves.",
+  "titleFive": "CELEBRAR DATAS IMPORTANTES",
+  "descriptionFive": "Procura envolver a sociedade civil, o setor privado e governo na solução sustentável para um problema global.",
+
+  "projectTitle": "Projetos",
+  "discoverProjects": "Conheça todos os projetos",
+  "seeMore": "VEJA MAIS",
+
+  "filter": "Filtrar",
+  "moreProjects": "MAIS PROJETOS",
+  "lessProjects": "MENOS PROJETOS",
+
+  "noHaveAccount": "Não tem conta?",
+  "signUp": "Cadastre-se",
+  "send": "ENVIAR",
+  "namePlaceholder": "Nome",
+  "passwordPlaceholder": "Senha",
+
+  "alreadyHaveAccount": "Já possui uma conta?",
+  "signIn": "Conecte-se",
+  "login": "ENTRAR"
 }
