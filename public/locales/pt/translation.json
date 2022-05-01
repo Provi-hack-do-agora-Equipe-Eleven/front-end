@@ -38,6 +38,7 @@
   "send": "ENVIAR",
   "namePlaceholder": "Nome",
   "passwordPlaceholder": "Senha",
+  "phonePlaceholder": "Telefone",
 
   "alreadyHaveAccount": "Já possui uma conta?",
   "signIn": "Conecte-se",
