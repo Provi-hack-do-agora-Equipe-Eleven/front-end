@@ -1,0 +1,45 @@
+.our-mission {
+    margin: 100px auto;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    max-width: 550px;
+    margin-bottom: 40px;
+}
+
+.description h1, .number {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.description h1, .description p, .number {
+    line-height: 24px;
+}
+
+.description p, .number {
+    color: #474D51;
+}
+
+.description h1 {
+    font-weight: 500;
+    color: #42494F;
+}
+
+.description p {
+    font-weight: 300;
+}
+
+.number {
+    margin: 0 40px;
+
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.card-description {
+    margin-bottom: 100px;
+    display: flex;
+}
