@@ -11,7 +11,7 @@ const SignIn = () => {
       </Title>
       <Form>
         <Input placeholder="E-mail" />
-        <Input placeholder={t("passwordPlaceholder")} />
+        <Input type='password' placeholder={t("passwordPlaceholder")} />
         <Button>{t("login")}</Button>
       </Form>
     </Container>

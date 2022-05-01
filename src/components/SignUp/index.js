@@ -12,7 +12,7 @@ const SignUp = () => {
       <Form>
         <Input placeholder={t("namePlaceholder")} />
         <Input placeholder="E-mail" />
-        <Input placeholder={t("passwordPlaceholder")} />
+        <Input type='password' placeholder={t("passwordPlaceholder")} />
         <Button>{t("send")}</Button>
       </Form>
     </Container>
