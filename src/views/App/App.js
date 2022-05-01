@@ -1,8 +1,11 @@
 import Header from "../../components/Header";
 import "./App.css";
-import HomePage from "../../pages/HomePage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProjectPage from "../../pages/ProjectPage";
+import HomePage from "../../pages/HomePage";
+import ProjectsPage from "../../pages/ProjectsPage";
+import RegisterPage from "../../pages/RegisterPage";
+import Footer from "../../components/Footer";
 
 const App = () => {
   return (
@@ -12,7 +15,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/project" element={<ProjectPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/register" element={<RegisterPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

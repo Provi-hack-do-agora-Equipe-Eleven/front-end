@@ -9,7 +9,8 @@
   "about": "quem",
   "us": "somos",
   "aboutUsDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus nesciunt voluptate quasi, dolor praesentium sapiente autem sunt, placeat, voluptatum est? Asperiores illum reprehenderit rerum corrupti inventore beatae quas temporibus?",
- 
+
+  "allRightsReserved": "Todos os direitos reservados",
   "our": "nossa",
   "mission": "missão",
   "ourMission": "Conectar e mobilizar pessoas e organizações com ações sustentáveis que gerem impactos positivos ao meio ambiente através da redução de lixo plático.",
@@ -26,5 +27,26 @@
 
   "projectTitle": "Projetos",
   "discoverProjects": "Conheça todos os projetos",
-  "seeMore": "VEJA MAIS"
+  "seeMore": "VEJA MAIS",
+
+  "filter": "Filtrar",
+  "moreProjects": "MAIS PROJETOS",
+  "lessProjects": "MENOS PROJETOS",
+
+  "noHaveAccount": "Não tem conta?",
+  "signUp": "Cadastre-se",
+  "send": "ENVIAR",
+  "namePlaceholder": "Nome",
+  "passwordPlaceholder": "Senha",
+
+  "alreadyHaveAccount": "Já possui uma conta?",
+  "signIn": "Conecte-se",
+  "login": "ENTRAR",
+
+  "carousel1p1": "anos leva o plástico para se decompor.",
+  "carousel1p2": "haverá mais plástico nos oceanos do que peixes.",
+  "carousel2p1": "milhões de toneladas de lixo plástico em todo o planeta são geradas a cada ano.",
+  "carousel2p2": "de todo o lixo encontrado nos oceanos é plástico.",
+  "carousel3p1": "mil animais marinhos são mortos a cada ano devido ao lixo plástico.",
+  "carousel3p2": "de garrafas de plástico são compradas a cada minuto."
 }

@@ -1,12 +1,13 @@
 import "./style.css";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import logo from "../../assets/icons/logo.svg";
 import magnifyingGlass from "../../assets/icons/magnifyingGlass.svg";
 import person from "../../assets/icons/person.svg";
-
 const Header = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
     <header>
@@ -20,7 +21,7 @@ const Header = () => {
         </nav>
         <div className="cta-div">
           <div className="icons-div">
-            <button>
+            <button onClick={()=> navigate('/register')}>
               <img src={person} alt="person icon" />
             </button>
 
