@@ -1,69 +1,106 @@
 import "./style.css";
 import { useState, useEffect } from "react";
 import circle from "../../assets/icons/circle.svg";
+import CircleSvg from "../CircleSvg";
+import leftArrow from "../../assets/icons/leftArrow.svg";
+import rightArrow from "../../assets/icons/rightArrow.svg";
 
 const MainCarousel = () => {
-  const [current, setCurrent] = useState(1);
+  const [current, setCurrent] = useState(0);
 
   const handleCarousel = (id) => {
+    if (id < 0) return setCurrent(2);
     setCurrent(id);
   };
 
   useEffect(() => {
-    setInterval(() => {
-      setCurrent(current + 1);
-    }, 5000);
+    const interval = setInterval(() => {
+      setCurrent((current) => (current + 1) % 3);
+    }, 7000);
+
+    return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    if (current === 4) setCurrent(1);
-  }, [current]);
-
   return (
-    <div className="carousel-wrapper">
-      {current === 1 && (
-        <div className="carouse-1-wrapper">
-          <div className="carousel-1">
-            <span>400</span>
-            <p>O plástico pode levar mais de 400 anos para se decompor.</p>
-          </div>
-          <div className="carousel-1">
-            <span>2050</span>
-            <p>Até 2050, haverá mais plástico nos oceanos do que peixes.</p>
-          </div>
+    <div className="carousel">
+      <div className="carousel-width">
+        <div className="carousel-control">
+          <button onClick={() => handleCarousel((current - 1) % 3)}>
+            <img src={leftArrow} alt="left arrow for carousel" />
+          </button>
         </div>
-      )}
 
-      {current === 2 && (
-        <div className="carouse-1-wrapper">
-          <h3>1</h3>
-        </div>
-      )}
+        <div className="carousel-content">
+          <div
+            className="carousel-wrapper"
+            style={{ "--carouselCurrent": current }}
+          >
+            <div className="carouse-1-wrapper">
+              <div className="carousel-1">
+                <span>400</span>
+                <p>O plástico pode levar mais de 400 anos para se decompor.</p>
+              </div>
+              <div className="carousel-1">
+                <span>2050</span>
+                <p>Até 2050, haverá mais plástico nos oceanos do que peixes.</p>
+              </div>
+            </div>
 
-      {current === 3 && (
-        <div className="carouse-1-wrapper">
-          <h3>2</h3>
+            <div className="carouse-1-wrapper">
+              <div className="carousel-1">
+                <span>300</span>
+                <p>
+                  milhões de toneladas de lixo plástico em todo o planeta são
+                  geradas a cada ano
+                </p>
+              </div>
+              <div className="carousel-1">
+                <span>80%</span>
+                <p>de todo o lixo encontrado nos oceanos é plástico</p>
+              </div>
+            </div>
+
+            <div className="carouse-1-wrapper">
+              <div className="carousel-1">
+                <span>100</span>
+                <p>
+                  mil animais marinhos são mortos a cada ano devido ao lixo
+                  plástico
+                </p>
+              </div>
+              <div className="carousel-1">
+                <span>1Mi</span>
+                <p>de garrafas de plástico são compradas a cada minuto.</p>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-btns">
+            <button
+              className={current === 0 ? "active-btn" : ""}
+              onClick={() => handleCarousel(0)}
+            >
+              <CircleSvg />
+            </button>
+            <button
+              className={current === 1 ? "active-btn" : ""}
+              onClick={() => handleCarousel(1)}
+            >
+              <CircleSvg />
+            </button>
+            <button
+              className={current === 2 ? "active-btn" : ""}
+              onClick={() => handleCarousel(2)}
+            >
+              <CircleSvg />
+            </button>
+          </div>
         </div>
-      )}
-      <div className="carousel-btns">
-        <button
-          className={current === 1 ? "active-btn" : ""}
-          onClick={() => handleCarousel(1)}
-        >
-          <img src={circle} alt="circle button" />
-        </button>
-        <button
-          className={current === 2 ? "active-btn" : ""}
-          onClick={() => handleCarousel(2)}
-        >
-          <img src={circle} alt="circle button" />
-        </button>
-        <button
-          className={current === 3 ? "active-btn" : ""}
-          onClick={() => handleCarousel(3)}
-        >
-          <img src={circle} alt="circle button" />
-        </button>
+
+        <div className="carousel-control">
+          <button onClick={() => handleCarousel((current + 1) % 3)}>
+            <img src={rightArrow} alt="right arrow for carousel" />
+          </button>
+        </div>
       </div>
     </div>
   );
