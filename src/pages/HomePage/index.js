@@ -1,7 +1,7 @@
 import HomeMain from "../../components/HomeMain";
 import AboutUs from "../../components/AboutUs";
 import Mission from "../../components/Mission";
-import ProjectsMain from "../../components/ProjectsMain";
+import HomeProjects from "../../components/HomeProjects";
 
 const HomePage = () => {
   return (
@@ -9,7 +9,7 @@ const HomePage = () => {
       <HomeMain />
       <AboutUs />
       <Mission />
-      <ProjectsMain />
+      <HomeProjects />
     </>
   );
 };

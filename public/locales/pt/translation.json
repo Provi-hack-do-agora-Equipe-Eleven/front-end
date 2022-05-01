@@ -26,5 +26,9 @@
 
   "projectTitle": "Projetos",
   "discoverProjects": "Conheça todos os projetos",
-  "seeMore": "VEJA MAIS"
+  "seeMore": "VEJA MAIS",
+
+  "filter": "Filtrar",
+  "moreProjects": "MAIS PROJETOS",
+  "lessProjects": "MENOS PROJETOS"
 }
