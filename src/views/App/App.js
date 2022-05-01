@@ -1,6 +1,7 @@
 import AboutUs from "../../components/AboutUs";
 import Header from "../../components/Header";
 import HomeMain from "../../components/HomeMain";
+import MainCarousel from "../../components/MainCarousel";
 import "./App.css";
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <HomeMain />
       <AboutUs />
+      <MainCarousel />
     </div>
   );
 };
