@@ -33,5 +33,13 @@
 
   "filter": "Filter",
   "moreProjects": "MORE PROJECTS",
-  "lessProjects": "LESS PROJECTS"
+  "lessProjects": "LESS PROJECTS",
+
+  "noHaveAccount": "Don't have an account?",
+  "signUp": "Sign Up",
+  "send": "REGISTER",
+  "alreadyHaveAccount": "Already have an account?",
+  "signIn": "Sign In",
+  "login": "LOGIN"
 }
+
