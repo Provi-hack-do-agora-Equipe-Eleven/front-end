@@ -4,3 +4,11 @@
   box-sizing: border-box;
   font-family: "Mitr", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}

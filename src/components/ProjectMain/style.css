@@ -1,0 +1,39 @@
+.project-info {
+    margin: 60px 130px 30px 0px;
+    width: 660px;
+}
+
+.project-company {
+    margin-top: 40px;
+}
+
+
+.project-social {
+    width: 380px;
+}
+
+.project-social p {
+    margin: 30px 0;
+}
+
+.border-social {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.information button {
+    border: 1px solid #434444;
+    color: #434444;
+
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.information p {
+    display: flex;
+    align-items: center;
+
+    margin-left: 40px;
+}
