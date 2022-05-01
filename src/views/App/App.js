@@ -1,4 +1,5 @@
 import AboutUs from "../../components/AboutUs";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import HomeMain from "../../components/HomeMain";
 import "./App.css";
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <HomeMain />
       <AboutUs />
+      <Footer />
     </div>
   );
 };
