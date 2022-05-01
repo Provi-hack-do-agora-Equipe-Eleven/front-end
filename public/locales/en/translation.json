@@ -31,5 +31,7 @@
   "discoverProjects": "Discover all projects",
   "seeMore": "SEE MORE",
 
-  "filter": "Filter"
+  "filter": "Filter",
+  "moreProjects": "MORE PROJECTS",
+  "lessProjects": "LESS PROJECTS"
 }
