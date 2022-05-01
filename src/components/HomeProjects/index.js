@@ -3,9 +3,11 @@ import { useTranslation } from "react-i18next";
 import ProjectCard from "../ProjectCard";
 import { Container, Title, Button, Projects } from "./styles";
 import mockup from "../../assets/images/photo-hero.jpg";
+import { useNavigate } from "react-router-dom";
 
 const HomeProjects = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -35,7 +37,9 @@ const HomeProjects = () => {
     <Container>
       <Title>
         <h1>{t("projectTitle")}</h1>
-        <Button>{t("discoverProjects")}</Button>
+        <Button onClick={() => navigate("/projects")}>
+          {t("discoverProjects")}
+        </Button>
       </Title>
       <Projects>
         {projects.map((project) => (
