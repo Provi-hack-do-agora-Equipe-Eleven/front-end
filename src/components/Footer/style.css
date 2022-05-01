@@ -1,0 +1,24 @@
+footer{
+  width: 100%;
+  background-color: #474D51;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-content {
+  height: 82px;
+  max-width: 1440px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.rigths{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
