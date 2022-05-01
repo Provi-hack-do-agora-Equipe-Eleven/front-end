@@ -4,7 +4,7 @@ import ProjectCard from "../ProjectCard";
 import { Container, Title, Button, Projects } from "./styles";
 import mockup from "../../assets/images/photo-hero.jpg";
 
-const ProjectsMain = () => {
+const HomeProjects = () => {
   const { t } = useTranslation();
   const [projects, setProjects] = useState([]);
 
@@ -52,4 +52,4 @@ const ProjectsMain = () => {
   );
 };
 
-export default ProjectsMain;
+export default HomeProjects;
