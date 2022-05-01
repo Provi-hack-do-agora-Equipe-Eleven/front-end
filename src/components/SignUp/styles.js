@@ -18,7 +18,7 @@ export const Title = styled.section`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 1em;
 `;
 
 export const Input = styled.input`
