@@ -9,8 +9,8 @@ export const Container = styled.section`
 
 export const CardImage = styled.img`
   width: 100%;
-  height: 300px;
   border-radius: 0.5em 0.5em 0 0;
+  min-height: 260px;
 `;
 
 export const CardContent = styled.div`
