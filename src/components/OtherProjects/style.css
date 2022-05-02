@@ -1,38 +1,47 @@
 .new-projects {
-    padding: 0 80px;
+  padding: 0 48px;
+  width: 100%;
 }
 
 .new-projects h1 {
-    margin-top: 70px;
+  margin-top: 70px;
 
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 48px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
 
-    color: #000000;
+  color: #000000;
 }
 
 .other-projects {
-    justify-content: center;
-    margin: 40px 0 150px 0px;
+  justify-content: center;
+  margin: 36px 0 150px 0px;
+  gap: 32px;
 }
 
 .other-projects img {
-    margin-left: 10px;
+  margin-left: 10px;
+  height: 110px;
+  border-radius: 4px;
+}
+
+.project-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .project-title-info {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
 
-    color: #434444;
+  color: #434444;
 }
 
 .project-description {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: #000000;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  width: 170px;
+  color: #000000;
 }
