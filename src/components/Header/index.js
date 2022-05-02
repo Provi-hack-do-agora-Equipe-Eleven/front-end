@@ -31,7 +31,11 @@ const Header = () => {
             </button>
             <LanguageSelector />
           </div>
-          <button className="header-CTA">{t("createProject")}</button>
+          <button 
+            onClick={()=> navigate('/createproject')}
+            className="header-CTA">
+            {t("createProject")}
+            </button>
         </div>
       </div>
     </header>
