@@ -4,7 +4,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
+  width: 343px;
 `;
 
 export const CardImage = styled.img`
