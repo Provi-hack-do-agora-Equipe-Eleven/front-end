@@ -1,14 +1,14 @@
 {
   "getInvolved": "Envolver-se",
   "beInspired": "Inspirar-se",
-  "getInformed": "Inform-se",
+  "getInformed": "Informe-se",
   "contact": "Contato",
   "createProject": "Criar Projeto",
   "mainTitle": "Descubra como engajar e ajudar nosso planeta",
   "meetProjects": "Conhecer os Projetos",
   "about": "quem",
   "us": "somos",
-  "aboutUsDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus nesciunt voluptate quasi, dolor praesentium sapiente autem sunt, placeat, voluptatum est? Asperiores illum reprehenderit rerum corrupti inventore beatae quas temporibus?",
+  "aboutUsDescription": "O Plástico Bolha nasceu com o intuito de unir as pessoas e comunidades  a projetos que visem minimizar o impacto do plástico no nosso meio ambiente, e que contribuam para ajudá-las a se desenvolverem de maneira sustentável.",
 
   "allRightsReserved": "Todos os direitos reservados",
   "our": "nossa",
@@ -38,6 +38,7 @@
   "send": "ENVIAR",
   "namePlaceholder": "Nome",
   "passwordPlaceholder": "Senha",
+  "phonePlaceholder": "Telefone",
 
   "alreadyHaveAccount": "Já possui uma conta?",
   "signIn": "Conecte-se",
@@ -55,5 +56,15 @@
   "support": "Apoiar",
   "share": "Compartilhe",
 
-  "projects": "Projetos"
+  "projects": "Projetos",
+  "project1Description": "O programa incentiva as pessoas a recolher todo tipo de tampa plástica e depois doa o dinheiro obtido com a venda...",
+  "project2Description": "O objetivo geral do projeto é reduzir o aporte de plástico no oceano protegendo o manguezal estuarino.",
+  "project3Description": "Tem o objetivo de coletar e vender tampinhas plásticas para reciclagem e toda renda será destinada a castrar cães...",
+
+  "registerProject": "Cadastrar seu projeto",
+  "state": "Estado",
+  "projectInformation": "Informações do projeto",
+  "projectContact": "Contato do projeto",
+  "description": "Descrição",
+  "city": "Cidade"
 }

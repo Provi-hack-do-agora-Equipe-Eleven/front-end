@@ -13,12 +13,12 @@ const Header = () => {
   return (
     <header>
       <div className="header-content">
-        <img src={logo} alt="plástico bolha logo" />
+        <img src={logo} alt="plástico bolha logo" onClick={()=> navigate('/')} />
         <nav>
-          <button>{t("getInvolved")}</button>
-          <button>{t("beInspired")}</button>
-          <button>{t("getInformed")}</button>
-          <button>{t("contact")}</button>
+          <button onClick={()=> navigate('/projects')}>{t("getInvolved")}</button>
+          <button onClick={()=> navigate('/projects')}>{t("beInspired")}</button>
+          <button onClick={()=> navigate('/projects')}>{t("getInformed")}</button>
+          <button onClick={()=> navigate('/')}>{t("contact")}</button>
         </nav>
         <div className="cta-div">
           <div className="icons-div">

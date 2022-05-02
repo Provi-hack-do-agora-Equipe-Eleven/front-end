@@ -10,7 +10,7 @@
 
   "about": "about",
   "us": "us",
-  "aboutUsDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus nesciunt voluptate quasi, dolor praesentium sapiente autem sunt, placeat, voluptatum est? Asperiores illum reprehenderit rerum corrupti inventore beatae quas temporibus?",
+  "aboutUsDescription": "Plastic Bubble was born with the aim of uniting people and communities to projects that aim to minimize the impact of plastic on our environment, and that contribute to helping them develop in a sustainable way.",
 
   "allRightsReserved": "All rights reserved",
   "our": "our",
@@ -40,6 +40,7 @@
   "send": "REGISTER",
   "namePlaceholder": "Name",
   "passwordPlaceholder": "Password",
+  "phonePlaceholder": "Phone",
 
   "alreadyHaveAccount": "Already have an account?",
   "signIn": "Sign In",
@@ -57,5 +58,15 @@
   "support": "Support",
   "share": "Share",
 
-  "projects": "Projects"
+  "projects": "Projects",
+  "project1Description": "The program encourages people to collect all sorts of plastic lids and then donates the money from the sale...",
+  "project2Description": "The overall objective of the project is to reduce the amount of plastic in the ocean by protecting the estuarine mangrove.",
+  "project3Description": "Its purpose is to collect and sell plastic caps for recycling and all income will go towards neutering dogs...",
+
+  "registerProject": "Register your project",
+  "state": "State",
+  "projectInformation": "Project Informations",
+  "projectContact": "Project contact",
+  "description": "Description",
+  "city": "City"
 }
