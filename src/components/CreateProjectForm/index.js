@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Container, Form, Button, Div, Flex } from "./styles";
 import { states } from "../../utils/utils";
+import api from "../../services/api";
+import { isAuthenticated } from "../../services/auth";
 
 const CreateProjectForm = () => {
   const [form, setForm] = useState({
@@ -19,14 +21,58 @@ const CreateProjectForm = () => {
   const { t } = useTranslation();
   const handleOnChange = ({ target }) => {
     setForm({ ...form, [target.name]: target.value });
+    console.log(form);
   };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const { name, description, state, city, email,phone, website, instagram, pix, project_image } = form;
+    if (!name || !description || !state || !city || !email || !project_image) return;
+      
+    const auth = isAuthenticated();
+    if (!auth) {
+      return <h1>Você precisa estar logado para criar um projeto</h1>;
+    }
+    const createProject = {
+      name,
+      description,
+      email,
+      website,
+      instagram,
+      pix,
+      phone,
+      project_image,
+      address: {
+        state,
+        city,
+      },
+    };
+    try {
+      await api.post("/projects", createProject);
+      setForm({
+        name: "",
+        description: "",
+        state: "",
+        city: "",
+        email: "",
+        phone: "",
+        website: "",
+        instagram: "",
+        pix: "",
+        project_image: "",
+      });
+    } catch (error) {
+      console.log(error.response);
+    }
+  };
+
   return (
     <Container>
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <Div>
           <h1>{t("projectInformation")}</h1>
           <input
-            placeholder={t("projectTitle")}
+            placeholder={t("titleCreate")}
             onChange={handleOnChange}
             value={form.name}
             name="name"
