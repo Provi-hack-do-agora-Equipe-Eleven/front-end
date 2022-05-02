@@ -5,7 +5,6 @@ import { MenuItem, Select } from "@mui/material";
 
 const LanguageSelector = () => {
   const {
-    t,
     i18n: { changeLanguage, language },
   } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState("us");

@@ -14,7 +14,7 @@ export const ContentContainer = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
+  padding: 100px 80px;
   background-size: cover;
   position: relative;
 `;
@@ -49,4 +49,5 @@ export const Projects = styled.section`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 `;
