@@ -2,8 +2,11 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import ProjectCard from "../ProjectCard";
 import { Container, ContentContainer, Title, Button, Projects } from "./styles";
-import mockup from "../../assets/images/photo-hero.jpg";
 import { useNavigate } from "react-router-dom";
+import mockup from "../../assets/images/photo-hero.jpg";
+import tampinha from "../../assets/images/tampinhaLegal.svg";
+import ecoFaxina from "../../assets/images/ecoFaxina.svg";
+import tampados from "../../assets/images/tampados.svg";
 
 const HomeProjects = () => {
   const { t } = useTranslation();
@@ -14,21 +17,21 @@ const HomeProjects = () => {
     setProjects([
       {
         id: 1,
-        img: mockup,
-        title: "title",
-        description: "description",
+        img: tampinha,
+        title: "Tampinha Legal",
+        description: t("project1Description"),
       },
       {
         id: 2,
-        img: mockup,
-        title: "title",
-        description: "description",
+        img: ecoFaxina,
+        title: "Eco Faxina",
+        description: t("project2Description"),
       },
       {
         id: 3,
-        img: mockup,
-        title: "title",
-        description: "description",
+        img: tampados,
+        title: "Tampadas",
+        description: t("project3Description"),
       },
     ]);
   }, []);
