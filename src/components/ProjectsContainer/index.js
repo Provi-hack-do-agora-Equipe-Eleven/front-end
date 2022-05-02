@@ -32,11 +32,11 @@ const ProjectsContainer = () => {
     <Container>
       <Form onSubmit={handleOnSubmit}>
         <Input
-          placeholder="Cidade"
+          placeholder={t("city")}
           onChange={({ target }) => setCity(target.value)}
         />
         <Select>
-          <option value="">{"Estado"}</option>
+          <option value="">{t("state")}</option>
           {states.map((state) =>(
             <option key={state} value={state}>{state}</option>
           ))}
