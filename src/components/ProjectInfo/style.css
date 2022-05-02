@@ -3,10 +3,25 @@
     width: 660px;
 }
 
+.project-info h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    
+    color: #434444;
+}
+
+.project-info p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #000000;
+}
+
 .project-company {
     margin-top: 40px;
 }
-
 
 .project-social {
     width: 380px;
@@ -23,8 +38,28 @@
     justify-content: center;
 }
 
+.border-social p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #000000;
+}
+
+.company-info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
 .information button {
     border: 1px solid #434444;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+
     color: #434444;
 
     margin: 0px 10px;

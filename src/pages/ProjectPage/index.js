@@ -1,11 +1,13 @@
 import ProjectHeader from '../../components/ProjectHeader'
-import ProjectMain from '../../components/ProjectMain';
+import ProjectInfo from '../../components/ProjectInfo';
+import OtherProjects from '../../components/OtherProjects';
 
 const ProjectPage = () => {
   return (
     <>
       <ProjectHeader />
-      <ProjectMain />
+      <ProjectInfo />
+      <OtherProjects />
     </>
   );
 };
